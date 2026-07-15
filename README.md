@@ -7,6 +7,7 @@
 ## ARCHITECT AND DESIGN
 
     user -> API -> DB (pg or mongo)
+
 - ###  SCHEMA 
 
     product table ( id , name , price , qty)
@@ -20,3 +21,10 @@
     - GET /health 
     - GET /product?name
     - POST /orders 
+
+
+### Framework used
+    - CHI
+    - GOOSE
+    - SQLC
+    
